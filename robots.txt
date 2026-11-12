@@ -1,0 +1,4 @@
+# Crawlers are allowed so they can read each page's noindex tag during review.
+# (On github.io this file isn't the host's robots.txt; it takes effect at her domain root.)
+User-agent: *
+Allow: /
