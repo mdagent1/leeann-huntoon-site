@@ -10,27 +10,31 @@
   <base href="/leeann-huntoon-site/">
   <title>Page not found | LeeAnn Huntoon</title>
   <meta name="color-scheme" content="light">
-  <meta name="theme-color" content="#F7F4EF">
+  <meta name="theme-color" content="#0C0C10">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <style>
     :root { color-scheme: light; }
-    html, body { margin: 0; background: #F7F4EF; color: #1C1B19; }
-    body { font-family: 'Lato', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; line-height: 1.6;
+    html, body { margin: 0; background: #0C0C10; color: #FFFFFF; }
+    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6;
            min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; box-sizing: border-box; text-align: center; }
-    .box { max-width: 520px; }
-    .name { font-family: 'Playfair Display', Georgia, serif; font-size: 1.4rem; margin: 0 0 32px; }
-    h1 { font-family: 'Playfair Display', Georgia, serif; font-weight: 500; font-size: clamp(2rem, 6vw, 2.8rem); line-height: 1.15; margin: 0 0 16px; }
-    p { margin: 0 0 28px; color: #5E5A53; }
-    a.btn { display: inline-flex; align-items: center; min-height: 48px; padding: 12px 26px; border-radius: 999px;
-            background: #1F5C5A; color: #fff; font-weight: 700; text-decoration: none; }
-    a.btn:hover { background: #174745; }
-    a:focus-visible { outline: 3px solid #1F5C5A; outline-offset: 3px; }
+    .box { max-width: 560px; }
+    .name { font-family: 'Montserrat', 'Arial Black', Arial, sans-serif; font-weight: 900; text-transform: uppercase; font-size: 1.3rem; margin: 0 0 28px; }
+    .name span { color: #EC1C8E; }
+    .code { font-family: 'Montserrat', 'Arial Black', Arial, sans-serif; font-weight: 900; font-size: clamp(4rem, 16vw, 7rem); line-height: 1; color: #3EE0E6; margin: 0 0 8px; }
+    h1 { font-family: 'Montserrat', 'Arial Black', Arial, sans-serif; font-weight: 900; font-size: clamp(1.8rem, 6vw, 2.6rem); line-height: 1.1; margin: 0 0 14px; }
+    p { margin: 0 0 28px; color: rgba(255, 255, 255, .82); }
+    a.btn { display: inline-flex; align-items: center; min-height: 50px; padding: 12px 26px; border-radius: 2px;
+            background: #D4127A; color: #fff; font-family: 'Montserrat', 'Arial Black', Arial, sans-serif; font-weight: 800; font-size: .85rem;
+            letter-spacing: .06em; text-transform: uppercase; text-decoration: none; }
+    a.btn:hover { background: #AD0E63; }
+    a:focus-visible { outline: 3px solid #3EE0E6; outline-offset: 3px; }
   </style>
-  <link rel="stylesheet" href="fonts/fonts.css?v=1">
+  <link rel="stylesheet" href="fonts/fonts.css?v=2">
 </head>
 <body>
   <main class="box">
-    <p class="name">LeeAnn Huntoon</p>
+    <p class="name">LeeAnn Huntoon<span aria-hidden="true">.</span></p>
+    <p class="code" aria-hidden="true">404</p>
     <h1>This page doesn't exist</h1>
     <p>The link may be old or mistyped. Her portfolio is one click away.</p>
     <a class="btn" href="./">Go to the portfolio</a>
