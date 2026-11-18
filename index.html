@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- REVIEW BUILD: noindex stays on every page until LeeAnn approves and the site moves to her domain. -->
-  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://leeannhuntoon.com/">
   <title>LeeAnn Huntoon | Award-Winning Journalist &amp; Editor, Orlando</title>
   <meta name="description" content="Award-winning Orlando journalist and editor LeeAnn Huntoon: travel, lifestyle, entertainment and news stories for Hearst Television and Very Local.">
   <meta name="color-scheme" content="light">
@@ -12,9 +11,8 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="LeeAnn Huntoon | Award-Winning Journalist &amp; Editorial Leader">
   <meta property="og:description" content="Stories that connect. Content that makes an impact. Travel, lifestyle, culture, entertainment and branded storytelling.">
-  <!-- Absolute URLs point at the review site; swap to her domain at launch. -->
-  <meta property="og:url" content="https://mdagent1.github.io/leeann-huntoon-site/">
-  <meta property="og:image" content="https://mdagent1.github.io/leeann-huntoon-site/images/og-card.jpg">
+  <meta property="og:url" content="https://leeannhuntoon.com/">
+  <meta property="og:image" content="https://leeannhuntoon.com/images/og-card.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="LeeAnn Huntoon, award-winning journalist and editorial leader">
@@ -24,7 +22,7 @@
   <link rel="preload" href="fonts/Montserrat-600-900-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" as="image" href="images/leeann-terrace-1280.webp" imagesrcset="images/leeann-terrace-800.webp 800w, images/leeann-terrace-1280.webp 1280w" imagesizes="(max-width: 900px) 100vw, 56vw" fetchpriority="high">
   <link rel="stylesheet" href="fonts/fonts.css?v=2">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=3">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -32,7 +30,8 @@
     "name": "LeeAnn Huntoon",
     "alternateName": "LeeAnn M. Huntoon",
     "jobTitle": "Digital Journalist and Editor",
-    "image": "https://mdagent1.github.io/leeann-huntoon-site/images/leeann-portrait-800.webp",
+    "image": "https://leeannhuntoon.com/images/leeann-portrait-800.webp",
+    "url": "https://leeannhuntoon.com/",
     "address": { "@type": "PostalAddress", "addressLocality": "Orlando", "addressRegion": "FL", "addressCountry": "US" },
     "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Central Florida" },
     "knowsAbout": ["Digital journalism", "Travel and lifestyle writing", "Branded content", "SEO", "Audience development", "Content strategy", "Multimedia production"],
@@ -402,7 +401,7 @@
              LIVE (at launch): set data-state="live", remove "disabled" from the fieldset, put LeeAnn's
              Web3Forms key in access_key, fill the redirect URL, and delete the review note. -->
         <form class="contact-form" id="contact-form" method="POST" action="https://api.web3forms.com/submit" data-state="review" novalidate>
-          <p class="form-review-note" id="form-review-note">The contact form goes live when the finished site launches. Until then, you can reach LeeAnn on <a href="https://www.linkedin.com/in/leeann-huntoon-2873868/" target="_blank" rel="noopener">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>.</p>
+          <p class="form-review-note" id="form-review-note">The contact form is coming soon. Until then, you can reach LeeAnn on <a href="https://www.linkedin.com/in/leeann-huntoon-2873868/" target="_blank" rel="noopener">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a>.</p>
           <fieldset disabled>
             <legend class="sr-only">Send LeeAnn a message</legend>
             <input type="hidden" name="access_key" value="">
@@ -448,6 +447,6 @@
     </div>
   </footer>
 
-  <script src="main.js?v=2" defer></script>
+  <script src="main.js?v=3" defer></script>
 </body>
 </html>
