@@ -276,6 +276,10 @@ fieldset[disabled] .btn { cursor: not-allowed; }
 .footer-links a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; text-decoration: none; }
 .footer-links a:hover { color: var(--cyan); text-decoration: underline; text-underline-offset: 4px; }
 .footer-note { width: 100%; margin: 0; font-size: .85rem; color: rgba(255, 255, 255, .72); }
+/* designer credit (2026-11-19, same as Ryan's site): brand-name anchor only; noopener without noreferrer keeps the referral visible in analytics */
+.footer-credit { width: 100%; margin: -6px 0 0; font-size: .8rem; color: rgba(255, 255, 255, .72); }
+.footer-credit a { color: rgba(255, 255, 255, .88); text-decoration: underline; text-underline-offset: 3px; }
+.footer-credit a:hover { color: var(--cyan); }
 
 /* ---------- Privacy page ---------- */
 .page { padding: clamp(40px, 6vw, 80px) 0; }
